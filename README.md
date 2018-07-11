@@ -25,11 +25,11 @@ This is the repository containing the community of user created sites (referred 
 - .app - Required to be used as information indexes on laptop mod addons!
     - *for subsites/subindexes - Standard multiple use case suffix*
     
-- .minetest - Recommened for information based indexes!
+- .minetest - Recommended for information based indexes!
 
-- .servers.minetest - Recommened for information based indexes!
+- .servers.minetest - Recommended for information based indexes!
 
-- .wiki - Recommened for information based indexes!
+- .wiki - Recommended for information based indexes!
 
 - .craft - Standard multiple use case suffix!
 
