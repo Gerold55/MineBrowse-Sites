@@ -1,7 +1,7 @@
 -------------------------------------------
 -- Lord-Of-The-Test Site
 --------------------------------------------
-laptop.register_view("lott.online", {
+laptop.register_view("lott.web", {
   app_info = "Lord of the Test is an amazing minetest subgame!",
   browser_page = "true",
   browser_main_page = true,
@@ -10,10 +10,9 @@ laptop.register_view("lott.online", {
       "background[0,1.2;15,9;laptop_lott_bg.png]" ..
       --Start Navigation
         "container[3,0;]" ..
-        mtos.theme:get_button('0,1.1;3,1', 'url_bright', 'page_link', 'lott.online', 'Home') ..
-        mtos.theme:get_button('3,1.1;3,1', 'url_bright', 'page_link', 'lott.online/about', 'About') ..
-        mtos.theme:get_button('6,1.1;3,1', 'url_bright', 'page_link', 'lott.online/gallery', 'Gallery') ..
-        mtos.theme:get_button('9,1.1;3,1', 'url_bright', 'page_link', 'lott.online/contact', 'Contact') ..
+        mtos.theme:get_button('0,1.1;3,1', 'url_bright', 'page_link', 'lott.web', 'Home') ..
+        mtos.theme:get_button('3,1.1;3,1', 'url_bright', 'page_link', 'lott.web/about', 'About') ..
+        mtos.theme:get_button('9,1.1;3,1', 'url_bright', 'page_link', 'lott.web/contact', 'Contact') ..
         "container_end[]" ..
       --End Navigation
       --Begin Page Content
@@ -28,7 +27,6 @@ laptop.register_view("lott.online", {
         mtos.theme:get_label('4,6.9', 'In the land of minetest where the shadows lie.') ..
         mtos.theme:get_label('4,7.5', '-red 001') ..
         mtos.theme:get_label('4,7.8', '(Based on J.R.R. Tolkien, The Lord of the Rings)') ..
-        "image_button_exit[4,8.5;3,1;laptop_lott_nav.png;exit;Save]"
 		return formspec
 	end,
 	receive_fields_func = function(app, mtos, sender, fields)
@@ -39,7 +37,7 @@ laptop.register_view("lott.online", {
 --------------------------------------------
 -- About Page
 --------------------------------------------
-laptop.register_view("lott.online/about", {
+laptop.register_view("lott.web/about", {
 	app_info = "About the Lord of the Test Game",
 	browser_page = true,
 	formspec_func = function(app, mtos)
@@ -47,10 +45,9 @@ laptop.register_view("lott.online/about", {
       "background[0,1.2;15,9;laptop_lott_bg.png]"..
       --Start Navigation
         "container[3,0;]" ..
-        mtos.theme:get_button('0,1.1;3,1', 'url_bright', 'page_link', 'lott.online', 'Home') ..
-        mtos.theme:get_button('3,1.1;3,1', 'url_bright', 'page_link', 'lott.online/about', 'About') ..
-        mtos.theme:get_button('6,1.1;3,1', 'url_bright', 'page_link', 'lott.online/gallery', 'Gallery') ..
-        mtos.theme:get_button('9,1.1;3,1', 'url_bright', 'page_link', 'lott.online/contact', 'Contact') ..
+        mtos.theme:get_button('0,1.1;3,1', 'url_bright', 'page_link', 'lott.web', 'Home') ..
+        mtos.theme:get_button('3,1.1;3,1', 'url_bright', 'page_link', 'lott.web/about', 'About') ..
+        mtos.theme:get_button('9,1.1;3,1', 'url_bright', 'page_link', 'lott.web/contact', 'Contact') ..
         "container_end[]" ..
       --End Navigation
       --Begin Page Content
@@ -73,7 +70,7 @@ laptop.register_view("lott.online/about", {
 --------------------------------------------
 -- Contact Page
 --------------------------------------------
-laptop.register_view("lott.online/contact", {
+laptop.register_view("lott.web/contact", {
 	app_info = "Contact the Creators",
 	browser_page = true,
 	formspec_func = function(app, mtos)
@@ -81,10 +78,9 @@ laptop.register_view("lott.online/contact", {
       "background[0,1.2;15,9;laptop_lott_bg.png]"..
       --Start Navigation
         "container[3,0;]" ..
-        mtos.theme:get_button('0,1.1;3,1', 'url_bright', 'page_link', 'lott.online', 'Home') ..
-        mtos.theme:get_button('3,1.1;3,1', 'url_bright', 'page_link', 'lott.online/about', 'About') ..
-        mtos.theme:get_button('6,1.1;3,1', 'url_bright', 'page_link', 'lott.online/gallery', 'Gallery') ..
-        mtos.theme:get_button('9,1.1;3,1', 'url_bright', 'page_link', 'lott.online/contact', 'Contact') ..
+        mtos.theme:get_button('0,1.1;3,1', 'url_bright', 'page_link', 'lott.web', 'Home') ..
+        mtos.theme:get_button('3,1.1;3,1', 'url_bright', 'page_link', 'lott.web/about', 'About') ..
+        mtos.theme:get_button('9,1.1;3,1', 'url_bright', 'page_link', 'lott.web/contact', 'Contact') ..
         "container_end[]" ..
       --End Navigation
       --Begin Page Content
