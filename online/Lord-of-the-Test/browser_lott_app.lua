@@ -26,7 +26,7 @@ laptop.register_view("lott.web", {
         mtos.theme:get_label('4, 6.6', 'One server to bring them all, and in the darkness bind them with awesome textures and bug fixes,') ..
         mtos.theme:get_label('4,6.9', 'In the land of minetest where the shadows lie.') ..
         mtos.theme:get_label('4,7.5', '-red 001') ..
-        mtos.theme:get_label('4,7.8', '(Based on J.R.R. Tolkien, The Lord of the Rings)') ..
+        mtos.theme:get_label('4,7.8', '(Based on J.R.R. Tolkien, The Lord of the Rings)')
 		return formspec
 	end,
 	receive_fields_func = function(app, mtos, sender, fields)
