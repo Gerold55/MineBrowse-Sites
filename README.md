@@ -1,5 +1,6 @@
 # MineBrowse-Sites
 A group of sites for the MineBrowse app on the laptop mod.
+The websites (lua files) need to be placed into the apps folder of the laptop mod.
 
 This is the repository containing the community of user created sites (referred from here on out as indexes) for the MineBrowse client available with the laptop mod.
 
